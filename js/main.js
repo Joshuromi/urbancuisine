@@ -91,6 +91,9 @@
         })
     });
 
+    $(document).ready(function () {
+        $('#current-year').text(/\d{4}/.exec(Date())[0]);
+    });
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
