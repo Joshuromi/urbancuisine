@@ -93,6 +93,7 @@
 
     $(document).ready(function () {
         $('#current-year').text(/\d{4}/.exec(Date())[0]);
+        $('#current-experience').text(/\d{4}/.exec(Date())[0] - 2011);
     });
 
     // Testimonials carousel
